@@ -4,6 +4,8 @@ A Python extraction tool for **"Artem Skakunov's resource file"**. This filetype
 
 No prior documentation of this format existed. The format was reverse-engineered from scratch by examining `resource.dat` across multiple copies of the game.
 
+This script has been used to extract the soundtrack of Little Bombers Returns and is available at https://downloads.khinsider.com/game-soundtracks/album/little-bombers-returns-windows-gamerip-2004 upon approval.
+
 > **Note:** This tool was partially written by [Claude](https://claude.ai) (Anthropic). The format research and reverse engineering was done collaboratively.
 
 ---
