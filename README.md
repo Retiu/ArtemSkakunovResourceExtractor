@@ -4,7 +4,9 @@ A Python extraction tool for **"Artem Skakunov's resource file"**. This filetype
 
 No prior documentation of this format existed. The format was reverse-engineered from scratch by examining `resource.dat` across multiple copies of the game.
 
-This script has been used to extract the soundtrack of Little Bombers Returns and is available at https://downloads.khinsider.com/game-soundtracks/album/little-bombers-returns-windows-gamerip-2004 upon approval.
+This script has been used to extract the soundtrack of Little Bombers Returns and is available at [KHInsider](https://downloads.khinsider.com/game-soundtracks/album/little-bombers-returns-windows-gamerip-2004) upon approval.
+
+Do note that I AM aware of the issue with some files extracting incorrectly or as corrupted files, this usually is only 1-5 files so I haven't bothered looking into it too deep yet.
 
 > **Note:** This tool was partially written by [Claude](https://claude.ai) (Anthropic). The format research and reverse engineering was done collaboratively.
 
@@ -73,14 +75,15 @@ options:
 
 ## Known versions
 
-Two distinct builds of `resource.dat` have been observed:
+Three distinct builds of `resource.dat` have been observed:
 
-| Build | Entries | Notes |
-|---|---|---|
-| Full/registered | 336 | All 9 stages, all enemies, audio files, `door.bmp` |
-| Demo | 313 | Missing stage 9 walls, enemy 20, some boss sprites and extras |
+| Build | Version | Entries | Notes |
+|---|---|---|---|
+| Russian localisation | 1.8 | 347 | Adds Russian publisher logos, particle effect, second music track (`weekend.xm`); missing 3D-mode assets and last two stage screens |
+| Shareware Version | 1.5 | 313 | Missing stage 9 walls, enemy 20, some boss sprites and extras |
+| Full Version | 1.4 | 336 | All 9 stages, all enemies, audio files, `door.bmp` |
 
-Both use the identical format and are handled by the same script.
+All three use the identical format and are handled by the same script.
 
 ---
 
