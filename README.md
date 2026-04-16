@@ -1,5 +1,7 @@
 # ArtemSkakunovResourceExtractor
 
+This is now featured in Watto's Game Extractor!! https://github.com/wattostudios/GameExtractor/issues/55#event-24551987145
+
 A Python extraction tool for **"Artem Skakunov's resource file"**. This filetype is a custom archive format for game assets used in at least one title developed by Artem Skakunov, *Little Bombers Returns*, published by Alawar Entertainment in 2004.
 
 No prior documentation of this format existed. The format was reverse-engineered from scratch by examining `resource.dat` across multiple copies of the game.
